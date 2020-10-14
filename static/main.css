@@ -29,6 +29,22 @@ header {
   padding: 40px;
 }
 
+.border {
+  border: solid black 5px;
+  margin: 20px;
+}
+
+.cart-border {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row wrap;
+  border: dashed red 5px;
+  padding: 20px;
+  margin: 40px;
+}
+
 .fa-stack[data-count]:after{
   position: absolute;
   right: 0%;
